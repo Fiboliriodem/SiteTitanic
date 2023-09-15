@@ -8,9 +8,10 @@
     background-color: #08090A;
 }
 body{
-    background-color: #F4F7F5;
+    background-image: url("RMS_Titanic_3.jpg");
+    background-size: 100%;
 }
 .nav-link{
     color: #F4F7F5;
-    text-align: left;
+    
 }
