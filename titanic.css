@@ -6,15 +6,45 @@
 
 #barra{
     background-color: #08090A;
+    position: fixed;
+    top: 0;
+    height: 7vh;
 }
 body{
     background-image: url("RMS_Titanic_3.jpg");
     background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-link{
     color: #F4F7F5;
     
 }
-#bt1{
+#accordionExample{
+    margin-top: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.accordion-button{
+    background-color: #222823;  
     color: #F4F7F5;
 }
+.accordion-collapse{
+background-color: #575A5E;
+color: #F4F7F5;
+}
+*:hover,
+*:focus,
+*:active
+ {
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+
+    
+
+
+
